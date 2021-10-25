@@ -1,6 +1,5 @@
-const ap = {
-    id: 1,
-    name: "ab",
-    hobby: 'eating'
-}
-console.log(ap)
+import {render} from 'react-dom'
+import App from './components/App'
+import './styles/index.scss'
+
+render(<App/>, document.getElementById("root"))
